@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link href="./style/form_style.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<section class="container">
+		<h1>Форма заказа <i>Сандали</i></h1>
+		<p>
+			Хотите приобрести такие, у которых ни у кого нет? Закажите обувь <em>у нас</em><br>
+			- и вам будут завидовать все окружающие!
+		</p>
+
+		<p>Сведения о заказчиках</p>
+
+		<form action="http://rightman.p.ht/lwd/contest.php" method="POST">
+			<li><label>Имя:</label><input style="margin-left: 45px" type="text" class="textbox" name="username"></li>
+			<li><label>Email:</label><input style="margin-left: 37px" type="Email" class="textbox" name="email"></li>
+			<li><label>Телефон:</label><input type="tel" class="textbox" name="phone"></li>
+			<label>Я хочу такие сандали, потому что...</label><br>
+			<textarea name="story" rows="4	" cols="60" maxlength="300">Не более, 300 символов...</textarea>
+
+		<h2>Выберите дизайн сандалей:</h2>
+
+
+
+			<fieldset id="block">
+				<legend><sub>Характеристики</sub></legend>
+
+				<fieldset class="blocks">
+					<legend>Цвет(выберите один пункт):</legend>
+					<li><input type="radio" name="red" id="red"><label class="split">Красный</label></li>
+					<li><input type="radio" name="blue" id="blue"><label class="split">Синий</label></li>
+					<li><input type="radio" name="black" id="black"><label class="split">Чёрный</label></li>
+					<li><input type="radio" name="serebrin" id="serebrin"><label class="split">Серебренный</label></li>
+				</fieldset>
+
+				<fieldset class="blocks">
+					<legend>Дополнительно(выберите один или несколько пунктов)</legend>
+					<li><input type="checkbox" name="" id=""><label class="split">Глянцевые ободки</label></li>
+					<li><input type="checkbox" checked name="" id=""><label class="split">Металлическая бляшка</label></li>
+					<li><input type="checkbox" name="" id=""><label class="split">Светящаяса подошва</label></li>
+					<li><input type="checkbox" name="" id=""><label class="split">Mp3-проигрыватель</label></li>
+				</fieldset>
+
+				<fieldset>
+					<legend>Размер</legend>
+					<label>Стандартные Российские размеры</label><input type="number" min="43" max="44" name="RusNumberSize" id="numRusSize">
+				</fieldset>
+			</fieldset>
+			<div id="btn">
+				<p>
+					<input type="submit" value="Заказать" name="" id="">
+					<input type="reset">
+				</p>
+			</div>
+
+		</form>
+	</section>
+</body>
+</html>

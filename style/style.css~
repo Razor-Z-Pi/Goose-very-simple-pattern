@@ -1,0 +1,163 @@
+body {
+    background-color: #faf2e4;
+    font-family: Georgia, serif;
+    font-size: small;
+    line-height: 1.75em;
+}
+
+var {
+	 font-family: Courier, monospace;
+}
+
+p, dd {
+	font-size: .875em;
+}
+
+strong {
+	font-style: italic;
+}
+
+dt {
+	font-weight: bold;
+	color: sienna;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 1em;
+}
+
+h2 {
+    color: #d1633c;
+    font: bold 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 + p {
+	text-align: center;
+	font-style: italic;
+}
+
+dt strong {
+	 color: maroon;
+}
+
+input {
+	border-radius: 50px;
+}
+
+.container { /*Весь блок с контентами*/
+    max-width: 900px;
+    max-height: 900px;  
+    margin: 0 auto;
+}
+
+/* Шапка с гусем и первый блок */
+
+.Header_image {
+    margin: 0 5%;
+    max-width: 1200px;
+    max-height: 500px;
+} 
+
+.lesson_1 {
+    max-width: 100%;
+}
+
+.lesson_1_text_header {
+    text-align: center;
+    font:bold 1.5em 'Marck Script', cursive;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    color: purple;
+    text-shadow: .1em .1em .2em lightslategray;
+}
+
+h1, h2, .lesson_1_text {
+	text-align: center;
+}
+
+.lesson_1_text {
+    float: right;
+}
+
+.lesson_1_text p {
+	font-style: italic;
+	color: grey;
+}
+
+.lesson_1_text h2 {
+    color: #d1633c;
+    font-size: 1em;
+}
+
+.eatText { /*Второй блок*/
+	margin-left: 50px;
+}
+.eatText em {
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: gray;
+}
+
+.Label {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+.warning, sup{
+	font-size: x-small;
+	color: red;
+	font-style: italic;
+}
+
+/*3 блок*/
+.vocumDelicates {
+	float: left;
+	margin-right: 30px;
+}
+
+article {
+	margin-top: 10px;
+}
+
+article header p {
+	margin-bottom: 10px;
+}
+
+.mounter {
+	padding-top: 10px;
+}
+
+#btn_message { /*кнопка*/
+    margin: 0 42%;
+}
+
+#messeg {
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+/*Адаптация под размер 600 пикселей*/
+@media (max-width:600px){
+	/*Шапка, картинка*/
+	.Header_image {
+    	max-width: 600px;
+    	margin: 0;
+	} 
+	
+	.Header_image img{
+    	width: 100%;
+	} 	
+	
+	/*Блок 1 с текстом*/
+	.lesson1 {
+		margin: 0 30px;	
+	}
+	
+	/*кнопка*/
+	#btn_message { 
+    	margin-left: 30%;
+	}	
+}

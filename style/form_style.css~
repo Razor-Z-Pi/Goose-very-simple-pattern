@@ -1,0 +1,67 @@
+body {
+	font-family: sans-serif;
+	background-color: yellow;
+}
+
+textarea {
+	border-radius: 15px;
+}
+
+ /*Главный блок с контентом*/
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #35C0CD;
+	text-align: center;
+	border-radius: 50px;
+}
+
+li {
+	list-style-type: none;
+}
+
+label {
+	margin-right: 15px;
+}
+
+/*Первый блок с цветами*/
+#block {
+	margin: 0 auto;
+}
+
+/*Второй блок с набором*/
+.blocks {
+	text-align: left;
+}
+
+.textbox {
+	margin: 2px 10px;
+}
+
+.split {
+	margin-left: 15px;
+}
+
+fieldset {
+	border: 5px solid green;
+	background-color: #FFB540;
+	width: 320px;
+} 
+
+legend {
+	color: black;
+	font-size: 14px;
+}
+
+#numRusSize {
+	width: 35px;
+}
+
+/*Кнопки*/
+#btn {
+	margin: 0 0 0 2%;
+}
+
+.btnCh {
+		border-radius: 50px;
+}
